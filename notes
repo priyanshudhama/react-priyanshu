@@ -1,0 +1,38 @@
+LIBRARIES vs FRAMEWORKS
+=======================
+
+LIBRARIES
+---------
+• Focused tool for specific tasks
+• You control the program flow
+• Call library functions when needed
+• Examples: React, jQuery, Lodash, Axios
+• More flexibility, less structure
+• Easier to integrate into existing projects
+
+FRAMEWORKS
+----------
+• Complete structure for building applications
+• Framework controls the program flow (Inversion of Control)
+• You fill in the blanks (callbacks, hooks, etc.)
+• Examples: Angular, Next.js, Django, Spring
+• Provides opinions and conventions
+• Steeper learning curve, faster development for large apps
+
+KEY DIFFERENCE
+---------------
+Library: You decide when and how to use it
+Framework: It decides the structure; you follow its rules
+
+WHEN TO USE WHAT
+-----------------
+Library: Small projects, integrating into existing code, flexibility needed
+Framework: Large projects, starting from scratch, need structure
+REAL DOM vs VIRTUAL DOM
+-----------------------
+• Real DOM: Actual browser DOM, slower to manipulate, direct changes
+• Virtual DOM: In-memory representation, faster updates, React/Vue use it
+• Virtual DOM diffing: Compares old and new versions, applies minimal changes
+• Performance: Virtual DOM batches updates, reducing browser reflows
+• Real DOM: Direct manipulation, immediate but expensive
+• Virtual DOM: Abstraction layer, better for frequent updates
