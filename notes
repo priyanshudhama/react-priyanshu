@@ -36,3 +36,16 @@ REAL DOM vs VIRTUAL DOM
 • Performance: Virtual DOM batches updates, reducing browser reflows
 • Real DOM: Direct manipulation, immediate but expensive
 • Virtual DOM: Abstraction layer, better for frequent updates
+COMPONENT-BASED ARCHITECTURE IN REACT
+--------------------------------------
+• Components: Reusable, self-contained UI building blocks
+• Functional Components: JavaScript functions returning JSX
+• Class Components: ES6 classes extending React.Component
+• Props: Pass data from parent to child components
+• State: Component-level data that can change over time
+• Composition: Build complex UIs by combining smaller components
+• Unidirectional Data Flow: Data flows down from parent to child
+• Re-usability: Write once, use in multiple places
+• Separation of Concerns: Each component handles one responsibility
+• Hierarchical Structure: Components nested within other components
+
